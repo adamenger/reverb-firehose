@@ -8,7 +8,9 @@
   <body ng-app="Firehose">
     <div ng-controller="ListingCtrl">
       <div data-chart class="listings" ng-repeat="listing in listings">
-        <img src="{{ listing._links.photo.href }}">
+        <a href="{{ listing._links.web.href }}">
+          <img src="{{ listing._links.photo.href }}">
+        </a>
       </div>
     </div>
   </body>
