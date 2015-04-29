@@ -1,0 +1,7 @@
+.listings {
+  display: inline-block;
+}
+.listings img {
+  display: inline-block;
+  width: 300px;
+}
