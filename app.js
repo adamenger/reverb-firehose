@@ -17,5 +17,3 @@ app.controller("ListingCtrl", function($scope, $http, $timeout) {
   };
   poll();
 });
-
-
