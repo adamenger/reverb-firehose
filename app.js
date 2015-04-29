@@ -1,5 +1,5 @@
 var app = angular.module("Firehose", []);
-var polling_rate = 3000;
+var polling_rate = 5000;
 var per_page = 50;
 
 app.controller("ListingCtrl", function($scope, $http, $timeout) {
