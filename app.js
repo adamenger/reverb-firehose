@@ -1,5 +1,7 @@
 var app = angular.module("Firehose", []);
+// rate which we poll the reverb api in milliseconds
 var polling_rate = 5000;
+// how many listings per page we will pull, 50 is max
 var per_page = 50;
 
 app.controller("ListingCtrl", function($scope, $http, $timeout) {
