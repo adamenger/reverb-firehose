@@ -12,6 +12,11 @@
       <div data-chart class="listings" ng-repeat="listing in listings">
         <a href="{{ listing._links.web.href }}">
           <img src="{{ listing._links.photo.href }}">
+          <p>
+            <b>{{ listing.title }}</b>
+            <br>
+            {{ listing.price.display }} + {{ listing.shipping.us_rate.display }}
+          </p>
         </a>
       </div>
     </div>
